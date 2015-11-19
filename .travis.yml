@@ -15,6 +15,12 @@ script:
 matrix:
   allow_failures:
     - jdk: oraclejdk8
+  include:
+    - jdk: openjdk7
+      #env: test=name
+  exclude:
+    - jdk: oraclejdk7
+
 notifications:
     email:
        - vidyac.raghav@gmail.com
