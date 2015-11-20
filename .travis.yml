@@ -20,7 +20,6 @@ matrix:
       #env: test=name
   exclude:
     env: foo=bar
-    - jdk: oraclejdk7
 
 notifications:
     email:
