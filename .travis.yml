@@ -19,7 +19,7 @@ matrix:
     - jdk: openjdk7
       #env: test=name
   exclude:
-    env: foo=bar
+    - env: foo=bar
 
 notifications:
     email:
